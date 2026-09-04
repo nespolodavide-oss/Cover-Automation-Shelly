@@ -64,6 +64,9 @@ This script does not create schedules itself — it acts on whichever schedules 
 3. **No special naming is required**: the script iterates over *all* existing schedules (`result.jobs`) and disables them (`enable:false`) when it closes the awning for bad weather, then re-enables them (`enable:true`) once the weather is confirmed stable again — so your daily routines won't conflict with the emergency closure in the meantime.
 4. If you later want to exclude specific schedules from this logic (e.g. a safety schedule that should always stay active), the script would need a filter by schedule `id` — this isn't implemented yet.
 
+## Disclaimer
+
+This project involves working with mains electrical wiring and controlling a motorized awning. Always disconnect power at the breaker and verify the absence of voltage before installing or wiring any component. This script and its documentation are provided as-is, without warranty of any kind. I take no responsibility for any damage, malfunction, injury, or other issues arising from the use, installation, or modification of this script or the associated wiring — use at your own risk, and consult a qualified electrician if you're unsure.
+
 ## License
 
-_Add your preferred license here (e.g. MIT)._
