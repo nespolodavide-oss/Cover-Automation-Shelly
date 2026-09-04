@@ -70,3 +70,4 @@ This project involves working with mains electrical wiring and controlling a mot
 
 ## License
 
+GNU General Public License v3.0
