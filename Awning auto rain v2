@@ -134,7 +134,7 @@ function checkWeather() {
             "&forecast_minutely_15=2" + // next 30 min, in 15-min steps
             "&timezone=auto";
 
-  print("Checking Oderzo weather...");
+  print("Checking YOUR_HOME weather...");
 
   Shelly.call("HTTP.GET", { url: url }, function (result, error_code, error_message) {
     if (error_code !== 0) {
